@@ -1,3 +1,75 @@
+// add();
+// function a() {
+//     console.log("hello world");
+// }
+// console.log("i am first ");
+
+// a();
+
+// setTimeout(() => {
+//     console.log("by by");
+// }, 0);
+
+// function add(a, b) {
+//     console.log(a * b);
+// }
+
+// let conform = true;
+// let prom1 = new Promise(function (resolve, reject) {
+//     if (conform) {
+//         resolve("I am successfull");
+//     } else {
+//         reject("I am failed");
+//     }
+// });
+// console.log(prom1);
+
+// NaN
+// i am first 
+// hello world
+// sucess
+// by
+
+
+// const person1 = {
+//     name: 'Ali',
+//     greet: function () {
+//         console.log(`Hello, ${this.name}`);
+//     }
+// };
+// person1.greet();
+
+// Hello Ali
+
+function userCreator(name, score) {
+    const newUser = Object.create(null);
+    newUser.name = name;
+    newUser.score = score;
+    newUser.increment = function () {
+        newUser.score++;
+    };
+    return newUser;
+}
+const user1 = userCreator("Will", 10);
+user1.increment();
+// object {will 11}
+// 11
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // // jab hum kisi function ko call karte he to wo call stack ke (memory locate) me sotre ho jata hai our jab ush function ka kaam khtm ho jata h to javascript ush function ko bahr nikaal deti h
 
 // // function a() {
@@ -182,3 +254,4 @@
 
 // let result = outer(2)(7)(3);
 // console.log(result);
+

@@ -36,3 +36,6 @@ function third() {
     console.log('Third Function');
 }
 first();
+// third
+// second 
+// first

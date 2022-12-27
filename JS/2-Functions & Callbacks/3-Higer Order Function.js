@@ -40,13 +40,13 @@ console.log(result);
 
 // jab bhi child parent ko lexical ke saath access karta hai ush ko clouser kehte h 
 
-// function coppyArrayDivideBy2(arr) {
-//     const output = [];
-//     for (let i = 0; i < arr.length; i++) {
-//         output.push(arr[i] / 2);
-//     }
-//     return output
-// }
-// const myArray = [1, 2, 3];
-// const result = coppyArrayDivideBy2(myArray);
-// console.log(result);
+function coppyArrayDivideBy2(arr) {
+    const output = [];
+    for (let i = 0; i < arr.length; i++) {
+        output.push(arr[i] / 2);
+    }
+    return output
+}
+const myArray = [1, 2, 3];
+const result = coppyArrayDivideBy2(myArray);
+console.log(result);
