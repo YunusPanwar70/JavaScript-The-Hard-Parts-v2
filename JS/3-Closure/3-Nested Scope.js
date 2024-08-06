@@ -3,6 +3,7 @@ function outer() {
 
     function incrementCounter() {
         counter++;
+        console.log(counter);
     }
     incrementCounter();
 }
